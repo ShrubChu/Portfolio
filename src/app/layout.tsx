@@ -7,7 +7,7 @@ import CustomHeader from "@/components/header";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Hareign's Weird Portfolio",
+  title: "Hareign Casaclang",
   description: "Hareign's Lore",
 };
 

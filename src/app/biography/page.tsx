@@ -15,6 +15,9 @@ export default function Biography() {
                     alt="Picture of my Family"
                 />
             </div>
+
+            <div className="text-l font-bold justify-center flex">Family First</div>
+
         </div>
     )
 

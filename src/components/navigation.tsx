@@ -17,8 +17,9 @@ export default function Navigation() {
             <div className="flex gap-4 text-gray-400">
                 <Link href="/" className={`${pathname === "/" && "text-white"}`}>Home</Link>
                 <Link href="/portfolio" className={`${pathname === "/portfolio" && "text-white"}`}>Portfolio</Link>
+                <Link href="/certifications" className={`${pathname === "/certifications" && "text-white"}`}>Certifications</Link>
                 <Link href="/biography" className={`${pathname === "/biography" && "text-white"}`}>About Me</Link>
-                <Link href="/contact" className={`${pathname === "/contact" && "text-white"}`}>Contact</Link>
+
             </div>
         </nav>
     )
